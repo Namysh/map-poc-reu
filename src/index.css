@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { margin: 0; padding: 0; overflow: hidden }
+#app, body, html {
+    width: 100%;
+    height: 100%;
+}
+
+#map {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.boxdraw {
+    background: rgba(56, 135, 190, 0.1);
+    border: 2px solid #3887be;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+}
